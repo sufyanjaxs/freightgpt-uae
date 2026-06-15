@@ -1,0 +1,43 @@
+# Core
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+alembic==1.13.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+python-jose[cryptography]==3.3.0
+# passlib[bcrypt]==1.7.4  # Replaced with built-in hashlib
+python-multipart==0.0.6
+httpx==0.25.2
+tenacity==8.2.3
+
+# Database (SQLite built-in, PostgreSQL optional)
+aiosqlite==0.19.0  # For SQLite async support (FREE, no server needed)
+
+# LLM - Ollama is FREE and local. No API keys needed.
+# Install Ollama: https://ollama.ai
+# openai==1.6.1       # Optional - only if you have an OpenAI key
+# anthropic==0.8.1    # Optional - only if you have an Anthropic key
+
+# Free storage
+aiofiles==23.2.1
+
+# Maps - FREE OpenStreetMap
+# No API key needed
+
+# Async support
+asyncio==3.4.3
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.23.2
+httpx==0.25.2
+
+# Email - FREE Gmail SMTP
+aiosmtplib==3.0.1
+
+# Optional: Redis (falls back to in-memory)
+# redis==5.0.1        # Optional
+
+# Optional: Qdrant (falls back to in-memory)
+# qdrant-client==1.6.4  # Optional
